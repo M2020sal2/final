@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 20px;
+      }
+      .video-container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      .thumbnail {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .video-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      video {
+        width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video-container">
+      <img
+        class="thumbnail"
+        src="https://coursebucket.s3.eu-central-2.wasabisys.com//courses/67d646399dfc9a3b3d263e26/videos/67d82072a121896c2948d7c4/thumbnail-67d82072a121896c2948d7c4-video-typescript-%D8%AA%D9%86%D8%B2%D9%8A%D9%84.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=6NNRAO22THCPJTHNCP5K%2F20250317%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20250317T131711Z&X-Amz-Expires=10800&X-Amz-Signature=1539c14bae749fbd4e6c62aab1383c461b084e1a49e0dfc6e0b4cec4975e8e69&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        alt="Video Thumbnail"
+      />
+      <div class="video-title">Video: TypeScript</div>
+      <video controls>
+        <source
+          src="https://coursebucket.s3.eu-central-2.wasabisys.com//courses/67d646399dfc9a3b3d263e26/videos/67d82072a121896c2948d7c4/video-67d82072a121896c2948d7c4-video-typescript-Second-Video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=6NNRAO22THCPJTHNCP5K%2F20250317%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20250317T131711Z&X-Amz-Expires=10800&X-Amz-Signature=51a08692f0a69e7a7c03f6bc453fc63daa0bbf4b1589a15078732ccc73b96629&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
