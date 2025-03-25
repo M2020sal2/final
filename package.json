@@ -5,6 +5,7 @@
     "type": "commonjs",
     "scripts": {
         "dev": "ts-node-dev --respawn src/server.ts",
+        "vercel-build": "npm run build",
         "build": "npx tsc",
         "start": "node dist/server.js",
         "prod": "npm run build && npm run start"
